@@ -1,0 +1,32 @@
+#words_count {
+	display: inline;
+	position: absolute;
+    right: 21px;
+    color: green;
+    font-size: 18px;
+    border: none
+}
+
+.run-btn {
+	position: relative;
+	display: inline-block;
+	transition: all 0.3s;
+	line-height: 24px;
+	padding: 5px 30px;
+	text-align: center;
+	background: #ffffff;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #333;
+	border-radius: 100px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.gradient-btn {
+	background-image: linear-gradient(to right, #b75cd8 0%, #6f86ff 100%) !important;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 7px;
+}
